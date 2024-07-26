@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>BAN</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="box1">
+            <h1>Dashboard</h1>
+            <button class="btnCreate">Добавить закладку</button>
+        </div>
+        <div class="box2">
+            <span>Показать задачи как:</span>
+            <button class="vid vid1">Таблица</button>
+            <button class="vid vid2">Плитка</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="td1">Заголовок задачи</th>
+                    <th class="td2">Описание задачи</th>
+                    <th class="td3">Дата</th>
+                    <th class="td4">Время</th>
+                    <th class="td5">Выполнено</th>
+                </tr>
+            </thead>
+            <tbody class="box-table"></tbody>
+        </table>
+
+        <div class="dspGrid unactive"></div>
+
+        <div class="modal">
+            <form class="modal_icon">
+                <h2>Добавить задачу</h2>
+                <input type="text" class="inp inp1" placeholder="Заголовок" name="title">
+                <input type="text" class="inp inp2" placeholder="Описание" name="description">
+                <button class="create">Добавить</button>
+            </form>
+
+            <button class="btnClose">x</button>
+        </div>
+    </section>
+
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>

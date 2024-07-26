@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+section {
+    width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    border: 0;
+    border-radius: 10px;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.btnCreate {
+    padding: 10px 20px;
+    margin: 0 20px;
+    color: #fff;
+    background-color: blue;
+    font-size: 17px;
+}
+
+.box2 {
+    margin: 20px 0;
+}
+
+.box2 span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.vid {
+    border: 0;
+    background-color: transparent;
+    margin: 0 0 0 10px;
+    font-size: 16px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.vid1 {
+    color: blue;
+    font-size: 17px;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #33333399;
+    display: none;
+}
+
+.modal_icon {
+    width: 500px;
+    display: flex;
+    border-radius: 12px;
+    margin: 120px auto;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px;
+}
+
+.btnClose {
+    top: 55px;
+    right: 70px;
+    position: absolute;
+    background-color: transparent;
+    color: #fff;
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.inp {
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+    padding: 0 10px;
+}
+
+.inp1 {
+    margin: 20px 0 0 0;
+}
+
+.create {
+    padding: 10px;
+    margin: 10px 0 0 0;
+    color: #fff;
+    background-color: blue;
+    font-size: 17px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #919191;
+}
+
+th {
+    color: #666;
+    height: 30px;
+}
+
+th,
+td {
+    text-align: start;
+    padding: 0 3px 0 0;
+}
+
+.btnClass {
+    background-color: transparent;
+    margin: 10% 0;
+}
+
+.dspGrid {
+    gap: 20px;
+    width: 100%;
+    display: grid;
+    margin: 20px auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.elems {
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid rgb(0, 0, 189);
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.boxTime {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+}
+
+.unactive {
+    display: none;
+}
+
+.btnClass1 {
+    color: rgb(19, 202, 19);
+}
+
+.btnClass2 {
+    color: red;
+}
+
+.btnClass3 {
+    color: #7a7a7a;
+}
+
+.td1 {
+    width: 29%;
+}
+
+.td2 {
+    width: 40%;
+}
+
+.td3 {
+    width: 10%;
+}
+
+.td4 {
+    width: 9%;
+}
